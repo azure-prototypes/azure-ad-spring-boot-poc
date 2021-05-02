@@ -3,5 +3,11 @@ azure:
     tenant-id: c06a9d9f-5fa8-4ba3-9c9f-4aae1705ad7a
     client-id: 8751c852-f58e-47d9-a16b-51df4e0f1e73
     client-secret: r89HXq8z_mZRV2m_mZlW88LI-gslWk.v88
+    post-logout-redirect-uri: http://localhost:8080
     user-group:
       allowed-groups: PricingServiceUsers,StaticCatalogueUsers
+    authorization-clients:
+      graph:
+        scopes:
+          - https://graph.microsoft.com/User.Read
+          - https://graph.microsoft.com/Directory.Read.All
