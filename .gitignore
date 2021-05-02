@@ -21,6 +21,7 @@ target/
 *.log
 *.jar
 .mvn
+mvnw*
 
 ### NetBeans ###
 /nbproject/private/
